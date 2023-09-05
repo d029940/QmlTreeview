@@ -16,7 +16,6 @@ Window {
 
         delegate: TreeViewDelegate {
             id: treeDelegate
-            text: model.display
             onClicked: {
 
                 var mi = treeDelegate.treeView.index(row, column)
